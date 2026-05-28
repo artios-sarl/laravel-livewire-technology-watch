@@ -12,3 +12,31 @@ Thumbs.db
 
 # Folder config file
 [Dd]esktop.ini
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# IDE and tool specific files
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
