@@ -1,0 +1,7 @@
+
+services:
+  devcontainer:
+    image: mcr.microsoft.com/devcontainers/base:trixie
+    command: sleep infinity
+    volumes:
+      - ..:/workspace:cached
